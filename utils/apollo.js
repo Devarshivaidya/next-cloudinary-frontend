@@ -6,7 +6,7 @@ import fetch from "isomorphic-unfetch";
 
 const link = createHttpLink({
   fetch, 
-  uri: "http://localhost:1337/graphql"
+  uri: "https://strapi-cloudinary-backend.herokuapp.com/graphql"
 });
 
 export default withApollo(
