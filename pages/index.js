@@ -16,7 +16,7 @@ export default function Home() {
                     return (
                       <div className = {styles.card}>
                         <div className = {styles.image}>
-                          <Image src = {post.cover.url} height="1000px" width="1000px"></Image>
+                          <Image src = {post.cover.url} height="1000px" width="1000px" alt="Image"></Image>
                         </div>
                         <h1>{post.title}</h1>
                         <p>{post.content}</p>
