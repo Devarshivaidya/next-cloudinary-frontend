@@ -12,7 +12,7 @@ export default function Home() {
             <div>
               <main className={styles.main}>
                 <div className = {styles.grid}> 
-                  {posts.map((post) => {
+                  {posts.key(post).map((post) => {
                     return (
                       <div className = {styles.card}>
                         <div className = {styles.image}>
