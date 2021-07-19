@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css'
-import Query from "../components/query";
+import Query from "../components/Query";
 import POSTS_QUERY from "../apollo/queries/posts/posts";
 import Image from 'next/image'
 
