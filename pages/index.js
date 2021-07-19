@@ -14,7 +14,7 @@ export default function Home() {
                 <div className = {styles.grid}> 
                   {posts.key(post).map((post) => {
                     return (
-                      <div className = {styles.card}>
+                      <div  key= {post.id} className = {styles.card}>
                         <div className = {styles.image}>
                           <Image key= {post.id} src = {post.cover.url} height="1000px" width="1000px" alt="Image"></Image>
                         </div>
